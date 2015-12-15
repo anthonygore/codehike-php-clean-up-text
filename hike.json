@@ -1,0 +1,21 @@
+{
+  "name": "Cleaning up text in PHP",
+  "description": ".",
+  "author": "Anthony Gore",
+  "tags": [
+    "php", "intermediate"
+  ],
+  "steps" : [
+    {
+      "step" : 1,
+      "baseDir" : "1",
+      "instructions": "instructions.md",
+      "code" : [
+        "functions.php"
+      ],
+      "test" : [
+        "test.php"
+      ]
+    }
+  ]
+}
