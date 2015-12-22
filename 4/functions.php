@@ -2,9 +2,18 @@
 
 function cleanup($string) {
 
+    // Remove tags
+    $string = strip_tags($string);
+
+    // Remove extraneous white space
+    $string = preg_replace('#\s+#', ' ', $string);
+
+    // Make all letters lowercase
+    $string = strtolower($string);
+
     // Your code here.
 
-    return $string;
+    return $arr;
 }
 
 $html = <<<EOF
@@ -12,5 +21,5 @@ $html = <<<EOF
 iracundia Id nam, his ne elitr impedit, Nominavi adipiscinG ex his.</div>
 EOF;
 
-echo cleanup($html);
+print_r(cleanup($html));
 

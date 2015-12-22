@@ -2,6 +2,18 @@
 
 function cleanup($string) {
 
+    // Remove tags
+    $string = strip_tags($string);
+
+    // Remove extraneous white space
+    $string = preg_replace('#\s+#', ' ', $string);
+
+    // Make all letters lowercase
+    $string = strtolower($string);
+
+    // Explode string to array
+    $arr = explode(" ", $string);
+
     // Your code here.
 
     return $string;

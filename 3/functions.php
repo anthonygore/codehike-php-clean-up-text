@@ -2,6 +2,12 @@
 
 function cleanup($string) {
 
+    // Remove tags
+    $string = strip_tags($string);
+
+    // Remove extraneous white space
+    $string = preg_replace('#\s+#', ' ', $string);
+
     // Your code here.
 
     return $string;

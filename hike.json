@@ -1,9 +1,9 @@
 {
   "name": "Cleaning up text in PHP",
-  "description": ".",
+  "description": "Removing tags, whitespace and correcting case for a PHP string",
   "author": "Anthony Gore",
   "tags": [
-    "php", "intermediate"
+    "php"
   ],
   "steps" : [
     {
@@ -13,9 +13,43 @@
       "code" : [
         "functions.php"
       ],
-      "test" : [
-        "test.php"
-      ]
+      "test" : "../test.php"
+    },
+    {
+      "step" : 2,
+      "baseDir" : "2",
+      "instructions": "instructions.md",
+      "code" : [
+        "functions.php"
+      ],
+      "test" : "../test.php"
+    },
+    {
+      "step" : 3,
+      "baseDir" : "3",
+      "instructions": "instructions.md",
+      "code" : [
+        "functions.php"
+      ],
+      "test" : "../test.php"
+    },
+    {
+      "step" : 4,
+      "baseDir" : "4",
+      "instructions": "instructions.md",
+      "code" : [
+        "functions.php"
+      ],
+      "test" : "../test.php"
+    },
+    {
+      "step" : 5,
+      "baseDir" : "5",
+      "instructions": "instructions.md",
+      "code" : [
+        "functions.php"
+      ],
+      "test" : "../test.php"
     }
   ]
 }

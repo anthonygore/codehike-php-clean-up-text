@@ -2,6 +2,9 @@
 
 function cleanup($string) {
 
+    // Remove tags
+    $string = strip_tags($string);
+
     // Your code here.
 
     return $string;
